@@ -4,8 +4,9 @@ streamlit_app.py
 NIDS Streamlit prototype — classifies uploaded CICFlowMeter CSV files
 using one of four trained models (RF, DNN, LSTM, DQN).
 """
-
 import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "-1"
+os.environ["TF_CPP_MIN_LOG_LEVEL"] = "3"
 import warnings
 import numpy as np
 import pandas as pd
