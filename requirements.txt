@@ -1,11 +1,11 @@
-streamlit==1.41.0
+streamlit
 scikit-learn
 joblib
 numpy
 pandas
 tensorflow-cpu==2.13.0
-keras==2.13.0
 matplotlib
 seaborn
 plotly
-imbalanced-learn
+stable-baselines3
+torch
