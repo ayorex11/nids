@@ -1,0 +1,16 @@
+ENV/
+*.env
+*.env.*
+.ENV/
+data/raw/
+data/*.npy
+__pycache__/
+*.pyc
+.DS_Storedata/raw/ 
+data/X_train.npy 
+data/X_test.npy 
+data/X_val.npy 
+data/y_train.npy 
+data/y_test.npy 
+data/y_val.npy 
+data/ 
