@@ -1,11 +1,9 @@
 streamlit
-scikit-learn
+scikit-learn==1.6.1
 joblib
-numpy>=1.26.0
+numpy==2.2.6
 pandas
-tensorflow-cpu==2.13.0
 matplotlib
 seaborn
 plotly
-stable-baselines3
-torch
+torch==2.8.0
